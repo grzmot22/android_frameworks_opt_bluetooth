@@ -1,7 +1,9 @@
 LOCAL_PATH:= $(call my-dir)
 include $(CLEAR_VARS)
 
-LOCAL_MODULE_TAGS := optional
+LOCAL_CFLAGS += -Os
+
+LOCALgit@github.com:temasek/android_frameworks_opt_bluetooth.git
 
 src_dirs:= src/android/bluetooth/client/pbap
 
